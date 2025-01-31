@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculatro</title>
+
+    <link rel="stylesheet" href="./style.css/reset.css">
+    <link rel="stylesheet" href="./style.css/style.css">
+
+    <script src="./script/cdn.js" defer></script>
+    <script src="./script/script.js" defer></script>
+
+</head>
+<body>
+    <div class="container">
+
+        <p class="display__result__text"></p>
+
+        <div class="wrapper__input">
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M3 12.625C3 12.2798 3.27982 12 3.625 12H17.375C17.7202 12 18 12.2798 18 12.625C18 12.9702 17.7202 13.25 17.375 13.25H3.625C3.27982 13.25 3 12.9702 3 12.625Z" fill="#6B6B6B"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M3 7.625C3 7.27982 3.27982 7 3.625 7H17.375C17.7202 7 18 7.27982 18 7.625C18 7.97018 17.7202 8.25 17.375 8.25H3.625C3.27982 8.25 3 7.97018 3 7.625Z" fill="#6B6B6B"/>
+            </svg>
+
+            <input type="text" class="value" id="value" readonly>
+                
+        </div>
+
+        <div class="wrapper__btn">
+            <button class="btn btnClearCE" id="ce" value="">CE</button>
+            <button class="btn btnClearC" id="c" value="">C</button>
+            <button class="btn modison" value="%">
+                %
+            </button>
+            <button class="btn division" value="/"> 
+                /
+            </button>
+
+            <button class="btn btnSeven" value="7">7</button>
+            <button class="btn btnEaght" value="8">8</button>
+            <button class="btn nbnNighing" value="9">9</button>
+            <button class="btn btnMultiply" value="*">
+                *
+            </button>
+            <button class="btn btnfour" value="4">4</button>
+            <button class="btn btnfive" value="5">5</button>
+            <button class="btn btnSix" value="6">6</button>
+            <button class="btn btnSubstract" value="-">
+                -
+            </button>
+
+            <button class="btn btnOne" value="1">1</button>
+            <button class="btn btnTow" value="2">2</button>
+            <button class="btn btnThree" value="3">3</button>
+            <button class="btn btnAddition" value="+">
+                +
+            </button>
+
+            <button class="btn btnOne" value=" ">
+                **
+            </button>
+            <button class="btn btnZiro" value="0">0</button>
+            <button class="btn btnComma" value=",">,</button>
+            <button class="btn btnEqual" value="" id="equal">
+                =
+            </button>
+            </button>
+
+        </div>
+    </div>
+</body>
+</html>
